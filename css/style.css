@@ -1,0 +1,134 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+header{
+
+}
+
+body{
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  background-color: #19181E;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 87px;
+}
+
+.logo{
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.menu__list{
+  display: flex;
+  margin-left: 673px;
+  text-transform: uppercase;
+}
+
+.menu__item{
+  margin: 0 35px;
+}
+
+.menu__list-link{
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.header__inner-search{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.top__heading{
+  display: flex;
+}
+
+.liner {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  left: 260px;
+  top: 245px;
+  background: linear-gradient(90deg, rgba(25, 60, 247, 0.6) 0%, rgba(123, 49, 241, 0.6) 100%);
+  filter: blur(4px);
+}
+
+.top__content{
+  padding-top: 168px;
+  width: 50%;
+}
+
+.top__text-up{
+  margin-bottom: 30px;
+}
+
+.top__title{
+  font-size: 96px;
+  line-height: 113px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 433px;
+  margin-bottom: 50px;
+}
+
+.top__text-up,
+.top__text-down {
+  color: #FFFFFF;
+}
+
+.top__text-down{
+  white-space: pre-wrap;
+  width: 400px;
+  height: 51px;
+  margin-bottom: 40px;
+}
+
+.application__btn{
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #193CF7 0%, #7B31F1 100%);
+  padding: 16px 32px;
+  box-shadow: blur(45px);
+
+}
+
+.top_picture{
+  margin-top: 155px;
+  margin-left: 199px;
+  text-align: left;
+}
